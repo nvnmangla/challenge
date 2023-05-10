@@ -1,7 +1,7 @@
 /**
  * @file station.h
  * @author Naveen Mangla (namangla@termail.umd.edu)
- * @brief
+ * @brief Station class for implementations
  * @version 0.1
  * @date 2023-05-09
  *
