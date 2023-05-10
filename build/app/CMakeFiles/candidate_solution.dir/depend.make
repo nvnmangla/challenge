@@ -6,7 +6,7 @@ app/CMakeFiles/candidate_solution.dir/__/include/network.cpp.o: ../include/netwo
 
 app/CMakeFiles/candidate_solution.dir/main.cpp.o: ../include/matplotlibcpp.h
 app/CMakeFiles/candidate_solution.dir/main.cpp.o: ../include/network.h
-app/CMakeFiles/candidate_solution.dir/main.cpp.o: ../include/networkx.h
+app/CMakeFiles/candidate_solution.dir/main.cpp.o: ../include/station.h
 app/CMakeFiles/candidate_solution.dir/main.cpp.o: ../app/main.cpp
 app/CMakeFiles/candidate_solution.dir/main.cpp.o: /usr/include/python3.8/Python.h
 app/CMakeFiles/candidate_solution.dir/main.cpp.o: /usr/include/python3.8/abstract.h

@@ -7,7 +7,7 @@ app/CMakeFiles/candidate_solution.dir/__/include/network.cpp.o
 app/CMakeFiles/candidate_solution.dir/main.cpp.o
  ../include/matplotlibcpp.h
  ../include/network.h
- ../include/networkx.h
+ ../include/station.h
  /home/naveen/Desktop/challenge/app/main.cpp
  /usr/include/python3.8/Python.h
  /usr/include/python3.8/abstract.h

@@ -10,7 +10,7 @@
  */
 
 #include <network.h>
-#include <networkx.h>
+#include <station.h>
 #include <algorithm>
 #include <cmath>
 #include <vector>
