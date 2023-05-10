@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/naveen/Desktop/challenge/build/app",
+  "command": "/usr/bin/c++   -I/usr/include/python3.8 -I/home/naveen/Desktop/challenge/include  -Wall -Wextra -Wpedantic -g -g   -std=gnu++11 -o CMakeFiles/candidate_solution.dir/main.cpp.o -c /home/naveen/Desktop/challenge/app/main.cpp",
+  "file": "/home/naveen/Desktop/challenge/app/main.cpp"
+},
+{
+  "directory": "/home/naveen/Desktop/challenge/build/app",
+  "command": "/usr/bin/c++   -I/usr/include/python3.8 -I/home/naveen/Desktop/challenge/include  -Wall -Wextra -Wpedantic -g -g   -std=gnu++11 -o CMakeFiles/candidate_solution.dir/__/include/network.cpp.o -c /home/naveen/Desktop/challenge/include/network.cpp",
+  "file": "/home/naveen/Desktop/challenge/include/network.cpp"
+}
+]
