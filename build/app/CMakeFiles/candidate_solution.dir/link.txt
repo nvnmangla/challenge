@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wextra -Wpedantic -g  -rdynamic CMakeFiles/candidate_solution.dir/main.cpp.o CMakeFiles/candidate_solution.dir/__/include/network.cpp.o  -o candidate_solution  -lpython3.8 

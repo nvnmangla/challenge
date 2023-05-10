@@ -1,5 +1,0 @@
-/home/naveen/Desktop/challenge/build/CMakeFiles/rebuild_cache.dir
-/home/naveen/Desktop/challenge/build/CMakeFiles/edit_cache.dir
-/home/naveen/Desktop/challenge/build/app/CMakeFiles/rebuild_cache.dir
-/home/naveen/Desktop/challenge/build/app/CMakeFiles/edit_cache.dir
-/home/naveen/Desktop/challenge/build/app/CMakeFiles/candidate_solution.dir
