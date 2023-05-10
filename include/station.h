@@ -18,6 +18,7 @@
 #include <memory>
 #include <string>
 #include <vector>
+#include <cassert>
 
 using std::string;
 
@@ -131,7 +132,10 @@ class Station {
   void move_next() {
     double charge_time{};
 
-    if (charge < next_distance || next_idx == goal_idx) {
+    
+    assert(next_distance <= full && next_distance >= 0);
+
+    if ((charge <= next_distance) || (next_idx == goal_idx)) {
       if (network[next_idx].rate > current.rate) {
         charge_time = abs(next_distance - charge) / current.rate;
         charge = next_distance;
@@ -140,6 +144,7 @@ class Station {
         charge = full;
       }
     }
+    assert(charge >= next_distance);
 
     std::cout << current.name << ",";
     if (charge_time !=
@@ -160,9 +165,9 @@ class Station {
     current = network[next_idx];
     current_idx = next_idx;
 
-    if (!is_visited(next_idx)) {
+    // if (!is_visited(next_idx)) {
       visited.push_back(next_idx);
-    }
+    // }
   }
 
   /**
@@ -179,7 +184,6 @@ class Station {
 
   /**
    * @brief Find the next possible station
-   *
    */
   void find_next() {
     int next_ = -1;
@@ -187,8 +191,8 @@ class Station {
     for (int i{}; i < static_cast<int>(network.size()); i++) {
       if (is_valid(i)) {
         auto ctg_ =  // local cost to go,
-            (get_dist(network[i], goal)) / speed +
-            full / std::max(network[i].rate, current.rate);
+            ((get_dist(network[i], goal)) / speed) +
+            (full / std::max(network[i].rate, current.rate));
 
         if (ctg_ < ctg) {
           ctg = ctg_;
