@@ -14,6 +14,9 @@
 #include <algorithm>
 #include <cmath>
 #include <vector>
+#include <matplotlibcpp.h>
+
+namespace plt = matplotlibcpp;
 
 
 int main(/*int argc, char** argv*/) {
